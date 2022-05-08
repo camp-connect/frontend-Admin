@@ -1,16 +1,23 @@
-# admin
+**The Admin App**
 
-A new Flutter project.
+The admin app is created for the warden of the hostel to track and maintain student records. It will be used for approving the out pass and registered students as well to see the complaint of the students.
 
-## Getting Started
+**Features**
+**Registration**
+The admin has to fill out the registration form completely with their institutional email id. The user will not be able to register again with the same details.
 
-This project is a starting point for a Flutter application.
+**Login**
+The student once getting approval from the admin will be able to login into the app once the correct credentials are entered.
 
-A few resources to get you started if this is your first Flutter project:
+**Students Approval** 
+The registration requests for student signup in the hostel will be approved. The list of requests will be displayed here.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Out pass Request**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A list of pending out pass will be displayed in this section for approval. The admin will approve the request after verification. 
+
+**Submitted complaints**
+The list of complaints will be displayed from here and the admin can remove it once the query is resolved.
+
+**Out strength**
+The admin will be able to see the list of students currently outside the college for the current date.
